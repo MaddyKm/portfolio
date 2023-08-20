@@ -1,0 +1,14 @@
+* {
+  border: solid 1px red;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header nav li {
+  display: inline;
+}
