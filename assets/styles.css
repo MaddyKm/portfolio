@@ -3,12 +3,37 @@
   box-sizing: border-box;
 }
 
+:root {
+  --headerfooter: rgb(98, 51, 168);
+  --textcolor: rgb(249, 247, 238);
+  --bodyfont: Verdana, Geneva, Tahoma, sans-serif;
+}
 header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  background-color: var(--headerfooter);
+  color: var(--textcolor);
+  font-family: var(--bodyfont);
 }
 
 header nav li {
+  display: inline;
+  padding: 1em;
+  justify-content: center;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+}
+footer {
+  background-color: var(--headerfooter);
+  font-family: var(--bodyfont);
+  color: var(--textcolor);
+  text-align: center;
+}
+.contact li {
   display: inline;
 }
