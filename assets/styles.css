@@ -124,3 +124,8 @@ main {
   margin-top: 45px;
   flex-wrap: wrap;
 }
+
+.smallerwork:hover,
+#firstwork:hover {
+  box-shadow: 5px 8px 10px rgb(193, 12, 142);
+}
