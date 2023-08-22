@@ -19,8 +19,12 @@ header nav li {
   padding: 1em;
   justify-content: center;
 }
+
+nav li a {
+  color: var(--textcolor);
+  text-decoration: none;
+}
 h1 {
-  background-color: var(--accentblue);
   font-size: 200%;
 }
 #maddy {
@@ -29,12 +33,15 @@ h1 {
   margin-right: auto;
   width: 35%;
   padding: 1em;
+  box-shadow: 5px 8px 10px var(--accentblue);
+  border-radius: 10px;
 }
 footer {
   background-color: var(--headerfooter);
   font-family: var(--bodyfont);
   color: var(--textcolor);
   text-align: center;
+  padding: 2em;
 }
 .contact li {
   display: inline;
@@ -59,34 +66,43 @@ footer {
   width: fit-content;
   height: fit-content;
 }
-.about {
+#about {
   display: flex;
   padding: 2em;
 }
-.contact {
+#contact {
   display: flex;
+  padding: 1em;
 }
 
-.work {
+#work {
   display: flex;
+  padding: 2em;
 }
 
 .smallerwork {
   display: flex;
   flex: 1 0 50%;
   flex-wrap: wrap;
+  box-shadow: 5px 8px 10px var(--accentblue);
+  border-radius: 10px;
+  padding: 1em;
 }
 h2 {
   padding: 1em;
   font-size: 150%;
 }
 main {
-  background-color: rgb(193, 156, 228);
+  background-color: rgb(181, 139, 221);
+  color: var(--textcolor);
 }
-.about p {
+#about p {
   text-align: center;
   margin-top: 30px;
 }
 #firstwork {
   flex: 2, 0, 100%;
+  box-shadow: 5px 8px 10px var(--accentblue);
+  border-radius: 10px;
+  padding: 1em;
 }
