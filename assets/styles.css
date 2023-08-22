@@ -34,8 +34,7 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 35%;
-  /* height: fit-content; */
+  height: 400px;
   padding: 1em;
   box-shadow: 5px 8px 10px var(--accentblue);
   border-radius: 10px;
@@ -75,6 +74,7 @@ footer {
 #contact {
   display: flex;
   padding: 1em;
+  align-items: center;
 }
 
 #work {
@@ -117,15 +117,29 @@ main {
   color: var(--textcolor);
 }
 #contactlinks li {
-  display: inline;
   padding: 2.5em;
-  position: relative;
-  margin-left: 40px;
-  margin-top: 45px;
-  flex-wrap: wrap;
 }
-
+#contactlinks {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
 .smallerwork:hover,
 #firstwork:hover {
   box-shadow: 5px 8px 10px rgb(193, 12, 142);
+}
+@media screen and (max-width: 740px) {
+  #maddy {
+    height: 300px;
+  }
+  .column {
+    flex-direction: column;
+    text-align: center;
+  }
+  header {
+    justify-content: center;
+  }
+  #contactlinks {
+    flex-direction: column;
+  }
 }
