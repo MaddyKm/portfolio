@@ -12,12 +12,15 @@ header {
   color: var(--textcolor);
   font-family: var(--bodyfont);
   padding: 1.5em;
+  flex-wrap: wrap;
+  border-bottom: 2px rgb(62, 32, 108) solid;
 }
 
 header nav li {
   display: inline;
-  padding: 1em;
+  padding: 2em;
   justify-content: center;
+  margin-top: 1em;
 }
 
 nav li a {
@@ -63,6 +66,7 @@ footer {
   padding: 5px;
   width: fit-content;
   height: fit-content;
+  text-decoration: none;
 }
 #about {
   display: flex;
@@ -118,4 +122,5 @@ main {
   position: relative;
   margin-left: 40px;
   margin-top: 45px;
+  flex-wrap: wrap;
 }
