@@ -139,6 +139,7 @@ main {
   header {
     justify-content: center;
   }
+
   #contactlinks {
     flex-direction: column;
   }
