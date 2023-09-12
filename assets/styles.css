@@ -144,3 +144,6 @@ main {
     flex-direction: column;
   }
 }
+#bio {
+  font-size: large;
+}
